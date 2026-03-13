@@ -22,8 +22,8 @@ export default function DespreNoiPage() {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl sm:text-4xl font-black mb-4">Despre Tyrefix Huedin</h1>
           <p className="text-xl text-fg-faint max-w-2xl leading-relaxed">
-            Service auto de încredere în Huedinu. Servim clienți din Huedin,
-            Florești, Gilău, Ciucea, Poieni, Negreni și întreaga zonă Cluj Vest.
+            Service auto de încredere în Huedin. Servim clienți din Huedin,
+            Florești, Gilău, Ciucea, Poieni, Negreni și întreaga zonă de Cluj Vest.
           </p>
         </div>
       </section>
