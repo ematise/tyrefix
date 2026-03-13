@@ -1,0 +1,48 @@
+{
+  "title": "Încărcare Freon AC Huedin",
+  "metaTitle": "Încărcare Freon Auto Huedin | Service Climatizare AC – Tyrefix",
+  "metaDescription": "Reîncărcare freon și verificare sistem climatizare auto în Huedin. Serviciu rapid cu echipamente profesionale. Mergi cu AC-ul în regulă toată vara.",
+  "hero": {
+    "heading": "Încărcare Freon Auto Huedin – AC Funcțional Toată Vara",
+    "subheading": "Reîncărcare freon și verificare sistem climatizare auto la Tyrefix Huedin."
+  },
+  "description": "Sistemul de aer condiționat al mașinii pierde în mod natural o parte din freon în fiecare an. Dacă AC-ul nu mai răcește eficient sau suflă aer cald, cel mai probabil este nevoie de o reîncărcare. La Tyrefix Huedin efectuăm reîncărcarea freonului cu echipamente profesionale, verificând totodată sistemul pentru eventuale scurgeri.",
+  "signs": [
+    "AC-ul suflă aer cald sau puțin răcit",
+    "Răcirea este ineficientă față de sezonul trecut",
+    "Apare condensare excesivă sau miros neplăcut",
+    "Compresorul AC pornește și oprește frecvent"
+  ],
+  "services": [
+    "Verificare sistem climatizare (inspecție)",
+    "Golire și reîncărcare freon R134a / R1234yf",
+    "Testare etanșeitate sistem AC",
+    "Dezinfecție habitaclu și circuit AC",
+    "Înlocuire filtru habitaclu"
+  ],
+  "prices": [
+    { "service": "Verificare sistem AC (inspecție)", "price": "50 RON" },
+    { "service": "Reîncărcare freon R134a (include manoperă)", "price": "150 – 200 RON" },
+    { "service": "Reîncărcare freon R1234yf (include manoperă)", "price": "250 – 350 RON" },
+    { "service": "Dezinfecție sistem AC + habitaclu", "price": "80 – 100 RON" },
+    { "service": "Înlocuire filtru habitaclu", "price": "50 – 80 RON" }
+  ],
+  "faq": [
+    {
+      "question": "Ce tip de freon are mașina mea?",
+      "answer": "Autoturismele fabricate înainte de 2017 folosesc de obicei R134a. Cele fabricate după 2017 utilizează în general R1234yf (freon ecologic). Puteți verifica tipul de freon pe eticheta de sub capotă sau în cartea tehnică a vehiculului."
+    },
+    {
+      "question": "Cât de des trebuie reîncărcat freonul?",
+      "answer": "Sistemul AC pierde aproximativ 10–15% din freon anual în condiții normale. O reîncărcare completă este recomandată la 2–3 ani sau ori de câte ori performanța sistemului scade vizibil."
+    },
+    {
+      "question": "Ce durată are serviciul?",
+      "answer": "Reîncărcarea freonului durează de obicei 30–60 de minute. Dacă detectăm o scurgere care necesită intervenție suplimentară, vă informăm înainte de a continua."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Pregătire completă înainte de ITP", "href": "/itp-huedin" },
+    { "label": "Service auto rapid Huedin", "href": "/service-auto-rapid-huedin" }
+  ]
+}

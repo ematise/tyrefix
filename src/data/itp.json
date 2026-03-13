@@ -1,0 +1,56 @@
+{
+  "title": "ITP Huedin",
+  "metaTitle": "ITP Huedin | Inspecție Tehnică Auto – Stație Autorizată Tyrefix",
+  "metaDescription": "Efectuează ITP-ul în Huedin la stația autorizată Tyrefix. Inspecție tehnică rapidă, profesionistă, cu personal calificat. Programare online sau telefonic.",
+  "hero": {
+    "heading": "ITP Huedin – Inspecție Tehnică Rapidă la Stația Autorizată Tyrefix",
+    "subheading": "Programare ITP în Huedin fără stres. Personal autorizat, echipamente certificate, rezultat imediat."
+  },
+  "description": "Inspecția Tehnică Periodică (ITP) este obligatorie prin lege și asigură că vehiculul tău respectă standardele de siguranță rutieră și de mediu. La Tyrefix Huedin, stația noastră autorizată efectuează ITP-ul rapid și profesionist, cu un personal calificat și echipamente certificate.",
+  "whatIsChecked": [
+    "Sistem de frânare (eficiența frânelor față și spate)",
+    "Sistem de direcție și suspensie",
+    "Starea anvelopelor și jantelor",
+    "Sistem de iluminare și semnalizare",
+    "Emisii de noxe (catalizator, tobă)",
+    "Caroserie și șasiu (coroziune, deformări)",
+    "Starea parbrizului și ștergătoarelor",
+    "Număr de înmatriculare și VIN",
+    "Centuri de siguranță și airbag (verificare vizuală)"
+  ],
+  "prices": [
+    { "service": "ITP autoturism categoria M1", "price": "100 – 130 RON" },
+    { "service": "ITP autoutilitară ușoară (până la 3,5t)", "price": "130 – 160 RON" },
+    { "service": "Reinspecție (în termen)", "price": "50 – 70 RON" }
+  ],
+  "howToPrepare": [
+    "Asigură-te că toate luminile funcționează corect",
+    "Verifică presiunea anvelopelor și starea benzii de rulare",
+    "Asigură-te că nu există erori active pe bord (martori aprinși)",
+    "Asigură-te că lichidul de frână nu este degradat",
+    "Adu toate documentele vehiculului (carte de identitate auto, asigurare RCA valabilă)"
+  ],
+  "faq": [
+    {
+      "question": "Cum mă programez la ITP?",
+      "answer": "Puteți programa o inspecție ITP sunând la numărul nostru de telefon sau trimițând un mesaj. Vom confirma data și ora disponibilă în cel mai scurt timp."
+    },
+    {
+      "question": "Ce se întâmplă dacă mașina nu trece ITP-ul?",
+      "answer": "Dacă vehiculul are deficiențe, primiți un raport detaliat cu neconformitățile constatate. Aveți la dispoziție un termen legal pentru remediere, după care puteți veni la reinspecție (tarif redus). Echipa noastră de service poate rezolva majoritatea deficiențelor chiar la noi."
+    },
+    {
+      "question": "Cât durează ITP-ul?",
+      "answer": "O inspecție ITP standard pentru autoturism durează 30–50 de minute. Vă recomandăm să veniți cu 5–10 minute înainte de ora programată."
+    },
+    {
+      "question": "Pot trece ITP-ul fără programare?",
+      "answer": "Recomandăm programarea în avans pentru a evita așteptarea. Totuși, dacă programul nostru permite, acceptăm și clienți fără programare."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Rezolvăm deficiențele înainte de reinspecție – Service Auto Rapid", "href": "/service-auto-rapid-huedin" },
+    { "label": "Reglaj direcție și geometrie roți înainte de ITP", "href": "/reglaj-directie-huedin" },
+    { "label": "Verificare și reîncărcare freon AC", "href": "/incarcare-freon-auto-huedin" }
+  ]
+}

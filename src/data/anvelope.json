@@ -1,0 +1,59 @@
+{
+  "title": "Anvelope Huedin",
+  "metaTitle": "Anvelope Huedin | Vânzare și Montare Anvelope Noi – Tyrefix",
+  "metaDescription": "Gamă largă de anvelope noi pentru autoturisme și SUV-uri în Huedin. Anvelope de vară, iarnă și all-season. Prețuri competitive, montare inclusă. Tyrefix Huedin.",
+  "hero": {
+    "heading": "Anvelope Huedin – Gamă Completă, Prețuri Competitive",
+    "subheading": "Anvelope de vară, iarnă și all-season pentru orice autoturism sau SUV. Montare și echilibrare la fața locului."
+  },
+  "description": "La Tyrefix Huedin găsești o gamă variată de anvelope noi pentru orice tip de vehicul, de la mărci premium până la oferte accesibile. Toți clienții beneficiază de consultanță gratuită pentru alegerea anvelopei potrivite și de montare profesională cu echilibrare inclusă.",
+  "categories": [
+    {
+      "name": "Anvelope de vară",
+      "description": "Performanță optimă pe carosabil uscat și umed, deasupra temperaturii de 7°C."
+    },
+    {
+      "name": "Anvelope de iarnă",
+      "description": "Siguranță maximă pe zăpadă, polei și temperaturi sub 7°C. Marcaj M+S și 3PMSF."
+    },
+    {
+      "name": "Anvelope all-season",
+      "description": "Soluție de compromis pentru șoferii care nu vor să schimbe sezonier."
+    }
+  ],
+  "brands": [
+    "Michelin", "Continental", "Bridgestone", "Goodyear",
+    "Pirelli", "Nokian", "Hankook", "Uniroyal", "Barum", "Debica"
+  ],
+  "services": [
+    "Consultanță gratuită pentru alegerea anvelopei",
+    "Montare și echilibrare inclusă la cumpărare",
+    "Depozitare anvelope sezoniere (serviciu opțional)",
+    "Schimb sezonier (vară ↔ iarnă)"
+  ],
+  "prices": [
+    { "service": "Anvelope economice (195/65 R15)", "price": "de la 200 RON / buc" },
+    { "service": "Anvelope mid-range (195/65 R15)", "price": "de la 350 RON / buc" },
+    { "service": "Anvelope premium (195/65 R15)", "price": "de la 550 RON / buc" },
+    { "service": "Montare + echilibrare (inclusă la cumpărare)", "price": "Inclus" },
+    { "service": "Depozitare sezonieră (set de 4)", "price": "80 – 120 RON / sezon" }
+  ],
+  "faq": [
+    {
+      "question": "Cum aleg anvelopa potrivită pentru mașina mea?",
+      "answer": "Dimensiunea anvelopei se găsește pe flancul anvelopei existente (de ex. 195/65 R15) sau în cartea tehnică a mașinii. Echipa noastră vă poate ajuta să alegeți cel mai bun raport calitate-preț pentru stilul dvs. de condus."
+    },
+    {
+      "question": "Oferiți garanție pentru anvelope?",
+      "answer": "Da, toate anvelopele vândute beneficiază de garanția producătorului. În plus, montarea este efectuată profesional pentru a nu deteriora anvelopa sau janta."
+    },
+    {
+      "question": "Puteți comanda o anvelopă la comandă dacă nu o aveți în stoc?",
+      "answer": "Da. Dacă dimensiunea sau marca dorită nu se află în stocul nostru curent, o putem comanda cu livrare în 1–3 zile lucrătoare."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Montare și vulcanizare", "href": "/vulcanizare-huedin" },
+    { "label": "Reglaj direcție după schimbarea anvelopelor", "href": "/reglaj-directie-huedin" }
+  ]
+}

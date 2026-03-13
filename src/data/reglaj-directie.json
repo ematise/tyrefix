@@ -1,0 +1,48 @@
+{
+  "title": "Reglaj Direcție Huedin",
+  "metaTitle": "Reglaj Direcție și Geometrie Roți Huedin | Tyrefix",
+  "metaDescription": "Serviciu profesional de reglaj direcție și geometrie roți în Huedin. Echipamente moderne, tehnician autorizat. Prelungește durata de viață a anvelopelor.",
+  "hero": {
+    "heading": "Reglaj Direcție Huedin – Geometrie Precisă pentru Siguranța Ta",
+    "subheading": "Reglaj direcție și geometrie roți cu echipamente de ultimă generație. Tyrefix Huedin."
+  },
+  "description": "Reglajul direcției (geometria roților) asigură contactul corect al anvelopelor cu calea de rulare, prelungind durata lor de viață și îmbunătățind stabilitatea vehiculului. Un reglaj corect reduce uzura prematură a anvelopelor, consumul de combustibil și oboseala șoferului.",
+  "signs": [
+    "Mașina trage într-o parte pe drum drept",
+    "Volanul nu este centrat când mergi drept",
+    "Uzură inegală a anvelopelor (pe interior sau exterior)",
+    "Vibrații ale volanului la viteze mai mari",
+    "Consum crescut de combustibil fără cauze aparente"
+  ],
+  "services": [
+    "Verificare geometrie roți (inspecție fără reglaj)",
+    "Reglaj direcție față (toe-in/toe-out)",
+    "Geometrie completă 3D (față + spate)",
+    "Verificare și reglaj camber și caster",
+    "Raport detaliat al geometriei înainte și după reglaj"
+  ],
+  "prices": [
+    { "service": "Verificare geometrie (inspecție)", "price": "50 RON" },
+    { "service": "Reglaj direcție față", "price": "100 – 130 RON" },
+    { "service": "Geometrie completă 3D (4 roți)", "price": "150 – 200 RON" }
+  ],
+  "faq": [
+    {
+      "question": "Cât de des trebuie efectuat reglajul direcției?",
+      "answer": "Se recomandă verificarea geometriei o dată pe an sau la fiecare 15.000–20.000 km, precum și după orice impact mai puternic (groapă adâncă, bordură) sau după înlocuirea unor componente de suspensie."
+    },
+    {
+      "question": "Cât durează reglajul direcției?",
+      "answer": "Un reglaj de direcție față durează aproximativ 30–45 de minute. Geometria completă 3D poate dura până la 60–90 de minute, în funcție de starea vehiculului."
+    },
+    {
+      "question": "Este necesară programarea?",
+      "answer": "Recomandăm programarea în prealabil pentru a vă garanta un timp de așteptare minim. Sunați-ne sau veniți direct la service."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Verifică și starea anvelopelor tale", "href": "/anvelope-huedin" },
+    { "label": "Pregătire completă pentru ITP", "href": "/itp-huedin" },
+    { "label": "Service auto rapid Huedin", "href": "/service-auto-rapid-huedin" }
+  ]
+}

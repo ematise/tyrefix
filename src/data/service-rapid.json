@@ -1,0 +1,48 @@
+{
+  "title": "Service Auto Rapid Huedin",
+  "metaTitle": "Service Auto Rapid Huedin | Reparații Fără Programare – Tyrefix",
+  "metaDescription": "Service auto rapid în Huedin – schimb ulei, filtre, frâne și alte reparații fără programare. Intervenții rapide la prețuri corecte. Tyrefix Huedin.",
+  "hero": {
+    "heading": "Service Auto Rapid Huedin – Reparații Fără Așteptare",
+    "subheading": "Intervenții rapide fără programare: schimb ulei, filtre, frâne și altele. Tyrefix Huedin."
+  },
+  "description": "Serviciul nostru de service auto rapid din Huedin se adresează șoferilor care au nevoie de intervenții punctuale, fără birocrație și fără liste de așteptare lungi. Schimb ulei, filtre, pastile de frână, lichid de frână, bujii — le rezolvăm pe loc, rapid și corect.",
+  "services": [
+    "Schimb ulei motor și filtru ulei",
+    "Înlocuire filtre (aer, habitaclu, combustibil)",
+    "Verificare și înlocuire pastile/discuri frână",
+    "Completare și schimb lichid de frână",
+    "Schimb bujii și bobine",
+    "Verificare nivel lichide (răcire, direcție, frână)",
+    "Diagnosticare OBD – citire erori calculator",
+    "Înlocuire baterie auto",
+    "Schimb ștergătoare parbriz"
+  ],
+  "prices": [
+    { "service": "Schimb ulei + filtru ulei (manoperă)", "price": "50 – 80 RON" },
+    { "service": "Schimb filtre aer / habitaclu (manoperă)", "price": "30 – 50 RON" },
+    { "service": "Verificare frâne (inspecție vizuală)", "price": "Gratuit" },
+    { "service": "Schimb pastile frână față (manoperă)", "price": "80 – 120 RON" },
+    { "service": "Diagnosticare OBD (citire erori)", "price": "50 RON" },
+    { "service": "Înlocuire baterie auto (manoperă)", "price": "30 RON" }
+  ],
+  "faq": [
+    {
+      "question": "Este necesară programarea pentru service rapid?",
+      "answer": "Nu — serviciile rapide nu necesită programare. Puteți veni direct la sediul nostru din Huedin în orele de program. Pentru intervenții mai complexe, o programare prealabilă reduce timpul de așteptare."
+    },
+    {
+      "question": "Vindeți și piesele necesare?",
+      "answer": "Da, lucrăm cu furnizori de piese de calitate originală și aftermarket. Piesele pot fi comandate și montate în aceeași zi sau în ziua următoare, în funcție de disponibilitate."
+    },
+    {
+      "question": "Faceți și diagnosticări OBD?",
+      "answer": "Da, avem echipament de diagnosticare OBD care citește codurile de eroare de la calculatorul mașinii. Vă explicăm ce înseamnă fiecare cod și ce opțiuni de rezolvare există."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Pregătire completă înainte de ITP", "href": "/itp-huedin" },
+    { "label": "Reglaj direcție și geometrie roți", "href": "/reglaj-directie-huedin" },
+    { "label": "Încărcare freon AC", "href": "/incarcare-freon-auto-huedin" }
+  ]
+}

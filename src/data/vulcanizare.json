@@ -1,0 +1,48 @@
+{
+  "title": "Vulcanizare Huedin",
+  "metaTitle": "Vulcanizare Huedin | Reparare și Montare Anvelope – Tyrefix",
+  "metaDescription": "Serviciu profesional de vulcanizare în Huedin. Reparare pene, montare și echilibrare anvelope pentru orice tip de autoturism. Program Luni–Sâmbătă.",
+  "hero": {
+    "heading": "Vulcanizare Huedin – Rapid, Profesional, Accesibil",
+    "subheading": "Reparare pene, montare și echilibrare anvelope în Huedin. Fără programare, fără așteptare."
+  },
+  "services": [
+    "Reparare pane tubeless (fără cameră)",
+    "Reparare pane cu cameră de aer",
+    "Montare și demontare anvelope",
+    "Echilibrare roți",
+    "Verificare și ajustare presiune",
+    "Schimb sezonier anvelope (vară ↔ iarnă)",
+    "Vulcanizare la cald și la rece"
+  ],
+  "prices": [
+    { "service": "Reparare pană tubeless", "price": "30 – 50 RON" },
+    { "service": "Reparare pană cu cameră", "price": "25 – 40 RON" },
+    { "service": "Montare + echilibrare (1 roată)", "price": "20 – 30 RON" },
+    { "service": "Set complet montare + echilibrare (4 roți)", "price": "80 – 100 RON" },
+    { "service": "Schimb sezonier (4 roți)", "price": "60 – 80 RON" },
+    { "service": "Verificare și ajustare presiune", "price": "Gratuit" }
+  ],
+  "faq": [
+    {
+      "question": "Cât durează repararea unei pene?",
+      "answer": "O reparare standard a unei pene tubeless durează între 15 și 30 de minute, în funcție de gravitatea daunei. Dacă anvelopa este irecuperabilă, îți putem monta pe loc anvelopa de rezervă sau o anvelopă nouă din stocul nostru."
+    },
+    {
+      "question": "Acceptați și camioane sau doar autoturisme?",
+      "answer": "Serviciile noastre de vulcanizare se adresează în principal autoturismelor, SUV-urilor și utilitarelor ușoare. Contactați-ne în prealabil pentru vehicule de tonaj mare."
+    },
+    {
+      "question": "Este necesară programarea?",
+      "answer": "Nu este necesară programarea pentru vulcanizare. Puteți veni direct la sediul nostru din Huedin în orele de program. Pentru mai multă certitudine, ne puteți suna în prealabil."
+    },
+    {
+      "question": "Ce faceți dacă anvelopa nu mai poate fi reparată?",
+      "answer": "Dacă pana nu mai poate fi reparată în siguranță, vă putem oferi o anvelopă de înlocuire din stocul nostru sau vă ajutăm să montați roata de rezervă."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Nu poți ajunge la noi? Apelează vulcanizarea mobilă", "href": "/vulcanizare-mobila-huedin" },
+    { "label": "Ai nevoie de anvelope noi?", "href": "/anvelope-huedin" }
+  ]
+}

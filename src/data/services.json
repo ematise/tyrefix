@@ -1,0 +1,52 @@
+[
+  {
+    "id": "vulcanizare",
+    "title": "Vulcanizare",
+    "description": "Reparare pene, montare și echilibrare anvelope la sediul nostru din Huedin.",
+    "href": "/vulcanizare-huedin",
+    "icon": "Wrench"
+  },
+  {
+    "id": "vulcanizare-mobila",
+    "title": "Vulcanizare Mobilă",
+    "description": "Venim la tine oriunde ești blocat — în Huedin sau în localitățile din jur.",
+    "href": "/vulcanizare-mobila-huedin",
+    "icon": "Car",
+    "featured": true
+  },
+  {
+    "id": "reglaj-directie",
+    "title": "Reglaj Direcție",
+    "description": "Geometrie roți și reglaj direcție cu echipamente de ultimă generație.",
+    "href": "/reglaj-directie-huedin",
+    "icon": "Crosshair"
+  },
+  {
+    "id": "freon-ac",
+    "title": "Încărcare Freon AC",
+    "description": "Reîncărcare și verificare sistem de climatizare auto.",
+    "href": "/incarcare-freon-auto-huedin",
+    "icon": "Snowflake"
+  },
+  {
+    "id": "service-rapid",
+    "title": "Service Auto Rapid",
+    "description": "Intervenții rapide: ulei, filtre, frâne și alte reparații fără programare.",
+    "href": "/service-auto-rapid-huedin",
+    "icon": "Zap"
+  },
+  {
+    "id": "itp",
+    "title": "ITP",
+    "description": "Inspecție tehnică periodică în stația autorizată Tyrefix din Huedin.",
+    "href": "/itp-huedin",
+    "icon": "ClipboardCheck"
+  },
+  {
+    "id": "anvelope",
+    "title": "Anvelope",
+    "description": "Gamă largă de anvelope noi pentru autoturisme și SUV-uri, la prețuri competitive.",
+    "href": "/anvelope-huedin",
+    "icon": "LifeBuoy"
+  }
+]

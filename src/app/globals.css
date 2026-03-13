@@ -1,26 +1,205 @@
 @import "tailwindcss";
 
+/* ============================================
+   DESIGN TOKENS
+   Sursa unică de adevăr pentru toate culorile.
+   Nu folosi nicio culoare Tailwind în JSX —
+   folosește clasele definite mai jos.
+   ============================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand */
+  --ds-brand:             #700303;
+  --ds-brand-hover:       #540202;
+  --ds-brand-tint:        #FFF0E8;
+  --ds-brand-faint:       #FED7AA;
+
+  /* Canvas – suprafețe luminoase */
+  --ds-canvas:            #ffffff;
+  --ds-canvas-subtle:     #F9FAFB;
+  --ds-canvas-muted:      #F3F4F6;
+
+  /* Dark – suprafețe întunecate */
+  --ds-dark:              #111827;
+  --ds-dark-deep:         #030712;
+  --ds-dark-elevated:     #374151;
+
+  /* Foreground – text pe fundal luminos */
+  --ds-fg:                #111827;
+  --ds-fg-secondary:      #374151;
+  --ds-fg-muted:          #6B7280;
+  --ds-fg-subtle:         #9CA3AF;
+  --ds-fg-faint:          #D1D5DB;
+
+  /* Foreground – text pe fundal întunecat */
+  --ds-fg-on-dark:        #ffffff;
+  --ds-fg-on-dark-muted:  #9CA3AF;
+
+  /* Borduri */
+  --ds-border:            #E5E7EB;
+  --ds-border-dark:       #374151;
+  --ds-border-subtle:     #9CA3AF;
+
+  /* Status */
+  --ds-success:           #16A34A;
+  --ds-success-muted:     #4ADE80;
+  --ds-danger:            #EF4444;
+  --ds-danger-muted:      #F87171;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  /* Tailwind folosit EXCLUSIV pentru font – nicio culoare aici */
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ============================================
+   UTILITĂȚI – FUNDAL
+   ============================================ */
+
+.bg-canvas        { background-color: var(--ds-canvas); }
+.bg-canvas-subtle { background-color: var(--ds-canvas-subtle); }
+.bg-canvas-muted  { background-color: var(--ds-canvas-muted); }
+.bg-dark          { background-color: var(--ds-dark); }
+.bg-dark-deep     { background-color: var(--ds-dark-deep); }
+.bg-brand         { background-color: var(--ds-brand); }
+.bg-brand-tint    { background-color: var(--ds-brand-tint); }
+
+/* ============================================
+   UTILITĂȚI – TEXT
+   ============================================ */
+
+.text-fg              { color: var(--ds-fg); }
+.text-fg-secondary    { color: var(--ds-fg-secondary); }
+.text-fg-muted        { color: var(--ds-fg-muted); }
+.text-fg-subtle       { color: var(--ds-fg-subtle); }
+.text-fg-faint        { color: var(--ds-fg-faint); }
+.text-fg-on-dark      { color: var(--ds-fg-on-dark); }
+.text-fg-on-dark-muted { color: var(--ds-fg-on-dark-muted); }
+.text-brand           { color: var(--ds-brand); }
+.text-brand-faint     { color: var(--ds-brand-faint); }
+.text-success         { color: var(--ds-success); }
+.text-success-muted   { color: var(--ds-success-muted); }
+.text-danger          { color: var(--ds-danger); }
+.text-danger-muted    { color: var(--ds-danger-muted); }
+
+/* ============================================
+   UTILITĂȚI – BORDURI
+   ============================================ */
+
+.border-base   { border-color: var(--ds-border); }
+.border-dark   { border-color: var(--ds-border-dark); }
+.border-brand  { border-color: var(--ds-brand); }
+
+/* ============================================
+   COMPONENTE INTERACTIVE
+   Stările :hover sunt definite EXCLUSIV în CSS.
+   ============================================ */
+
+/* Buton principal */
+.btn-primary {
+  background-color: var(--ds-brand);
+  color: var(--ds-fg-on-dark);
 }
+.btn-primary:hover { background-color: var(--ds-brand-hover); }
+
+/* Buton contur pe fundal întunecat */
+.btn-outline-dark {
+  border: 2px solid var(--ds-border-dark);
+  color: var(--ds-fg-faint);
+}
+.btn-outline-dark:hover {
+  border-color: var(--ds-border-subtle);
+  color: var(--ds-fg-on-dark);
+}
+
+/* Link brand */
+.link-brand { color: var(--ds-brand); }
+.link-brand:hover { color: var(--ds-brand-hover); }
+
+/* Link pe fundal întunecat */
+.link-on-dark { color: var(--ds-fg-on-dark-muted); }
+.link-on-dark:hover { color: var(--ds-brand); }
+
+/* Link footer discret */
+.link-footer { color: var(--ds-fg-muted); }
+.link-footer:hover { color: var(--ds-fg-faint); }
+
+/* Link nav desktop */
+.nav-link { color: var(--ds-fg-secondary); }
+.nav-link:hover {
+  color: var(--ds-brand);
+  background-color: var(--ds-brand-tint);
+}
+
+/* Buton icon (hamburger, etc.) */
+.icon-btn { color: var(--ds-fg-muted); }
+.icon-btn:hover { color: var(--ds-brand); }
+
+/* Top bar phone link */
+.topbar-phone { color: var(--ds-brand); }
+.topbar-phone:hover { color: var(--ds-brand-hover); }
+
+/* Card normal */
+.card-interactive {
+  background-color: var(--ds-canvas);
+  border-color: var(--ds-border);
+}
+.card-interactive:hover { border-color: var(--ds-brand); }
+
+/* Card featured (brand fill) */
+.card-featured {
+  background-color: var(--ds-brand);
+  border-color: var(--ds-brand);
+  color: var(--ds-fg-on-dark);
+}
+.card-featured:hover { background-color: var(--ds-brand-hover); }
+
+/* Titlu în card – schimbă culoarea la hover pe card */
+.card-interactive .card-title { color: var(--ds-fg); }
+.card-interactive:hover .card-title { color: var(--ds-brand); }
+.card-featured .card-title { color: var(--ds-fg-on-dark); }
+
+/* Descriere în card */
+.card-interactive .card-desc { color: var(--ds-fg-muted); }
+.card-featured .card-desc { color: var(--ds-brand-faint); }
+
+/* CTA text în card */
+.card-interactive .card-cta { color: var(--ds-brand); }
+.card-featured .card-cta { color: var(--ds-fg-on-dark); }
+
+/* Locație – zona de acoperire */
+.location-primary {
+  background-color: var(--ds-brand);
+  color: var(--ds-fg-on-dark);
+  border-color: var(--ds-brand);
+}
+.location-primary .location-note { color: var(--ds-brand-faint); }
+
+.location-default {
+  background-color: var(--ds-canvas);
+  border-color: var(--ds-border);
+  color: var(--ds-fg);
+}
+.location-default .location-note { color: var(--ds-fg-muted); }
+
+/* Link hartă Google Maps */
+.map-link { color: var(--ds-fg-muted); }
+.map-link:hover { color: var(--ds-brand); }
+
+/* Badge numbered (ex: pași ITP) */
+.badge-brand {
+  background-color: var(--ds-brand);
+  color: var(--ds-fg-on-dark);
+}
+
+/* ============================================
+   STILURI GLOBALE
+   ============================================ */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--ds-canvas);
+  color: var(--ds-fg);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
+
+html { scroll-behavior: smooth; }

@@ -1,0 +1,21 @@
+{
+  "name": "Tyrefix",
+  "tagline": "Service auto profesional în Huedin și zona Cluj Vest",
+  "phone": "0741 225 622",
+  "phoneHref": "tel:+40741225622",
+  "address": "Strada Protopop Aurel Munteanu, Huedin",
+  "city": "Huedin",
+  "county": "Cluj",
+  "email": "contact@tyrefix.ro",
+  "website": "https://tyrefix.ro",
+  "googleMapsUrl": "https://maps.google.com/?q=Tyrefix+Huedin",
+  "schedule": [
+    { "days": "Luni – Vineri", "hours": "08:00 – 18:00" },
+    { "days": "Sâmbătă", "hours": "09:00 – 14:00" },
+    { "days": "Duminică", "hours": "Închis" }
+  ],
+  "coordinates": {
+    "lat": 46.8736,
+    "lng": 22.9208
+  }
+}

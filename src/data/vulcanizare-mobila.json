@@ -1,0 +1,70 @@
+{
+  "title": "Vulcanizare Mobilă Huedin",
+  "metaTitle": "Vulcanizare Mobilă Huedin și Împrejurimi | Tyrefix – Venim la Tine",
+  "metaDescription": "Serviciu de vulcanizare mobilă în Huedin, Florești, Gilău, Ciucea, Negreni, Poieni și localitățile din zona Cluj. Venim la tine oriunde ești blocat. Sună acum!",
+  "hero": {
+    "heading": "Vulcanizare Mobilă Huedin – Venim la Tine, Oriunde Ești",
+    "subheading": "Serviciu disponibil în Huedin și în localitățile din zona Cluj Vest. O pană nu te mai lasă blocat."
+  },
+  "whatIsIt": "Vulcanizarea mobilă este serviciul prin care echipa Tyrefix vine direct la mașina ta — pe șosea, în parcare, la domiciliu sau la locul de muncă — și rezolvă pana pe loc, fără să fie nevoie să aștepți o remorchieră sau să cauți un vulcanizator deschis în zonă.",
+  "coverageDescription": "Serviciul nostru de vulcanizare mobilă acoperă Huedinul și localitățile din jur, pe o rază de aproximativ 50 de kilometri. Dacă ești blocat cu o pană pe DN1 între Huedin și Cluj, dacă ai rămas în pană în Florești sau pe drumul spre Gilău, sau dacă ești undeva pe ruta spre Ciucea, Poieni sau Negreni — suntem la un telefon distanță. Intervenim regulat în Bologa, Sâncraiu, Aghireș și în celelalte sate și comune din zona Huedin – Cluj Vest.",
+  "locations": [
+    { "name": "Huedin", "note": "sediu principal" },
+    { "name": "Florești", "note": "~45 km est" },
+    { "name": "Gilău", "note": "~35 km est" },
+    { "name": "Aghireș", "note": "~25 km est" },
+    { "name": "Ciucea", "note": "~20 km vest" },
+    { "name": "Negreni", "note": "~25 km vest" },
+    { "name": "Poieni", "note": "~15 km vest" },
+    { "name": "Bologa", "note": "~10 km" },
+    { "name": "Sâncraiu", "note": "~5 km" }
+  ],
+  "includes": [
+    "Reparare pană pe loc (tubeless și cu cameră)",
+    "Montare roată de rezervă",
+    "Verificare și ajustare presiune toate roțile",
+    "Transport la service dacă reparația nu e posibilă pe loc",
+    "Diagnosticare sumară a anvelopei"
+  ],
+  "prices": [
+    { "service": "Intervenție mobilă (deplasare inclus)", "price": "de la 80 RON" },
+    { "service": "Reparare pană tubeless la fața locului", "price": "50 – 80 RON" },
+    { "service": "Reparare pană cu cameră la fața locului", "price": "40 – 60 RON" },
+    { "service": "Montare roată de rezervă", "price": "30 – 50 RON" },
+    { "service": "Intervenție în afara razei standard (>30 km)", "price": "tarif personalizat" }
+  ],
+  "whyUs": [
+    "Timp de răspuns rapid – ajungem de obicei în 30–60 de minute",
+    "Echipamente profesionale, la fel ca în atelier",
+    "Prețuri transparente, comunicate înainte de intervenție",
+    "Tehnicieni cu experiență, pregătiți pentru orice tip de pană",
+    "Disponibilitate extinsă, inclusiv weekend"
+  ],
+  "faq": [
+    {
+      "question": "Interveniți și în localitățile din afara Huedinului?",
+      "answer": "Da. Zona noastră de intervenție include Florești, Gilău, Ciucea, Poieni, Negreni, Bologa, Aghireș și Sâncraiu, precum și alte localități din județul Cluj situate pe ruta Huedin–Cluj. Dacă nu ești sigur dacă localitatea ta se află în zona noastră de acoperire, sună-ne și îți confirmăm în câteva secunde."
+    },
+    {
+      "question": "Cât durează până ajungeți?",
+      "answer": "Timpul de răspuns depinde de localizarea ta și de disponibilitatea echipei. În Huedin și localitățile apropiate, ajungem de obicei în 20–40 de minute. Pentru localitățile mai îndepărtate (Florești, Gilău, Ciucea) estimăm 40–60 de minute."
+    },
+    {
+      "question": "Cât durează o intervenție?",
+      "answer": "O reparare standard durează între 20 și 45 de minute. Montarea roții de rezervă poate fi realizată în sub 15 minute. Îți comunicăm estimarea exactă după ce ai descris situația."
+    },
+    {
+      "question": "Ce se întâmplă dacă anvelopa nu mai poate fi reparată?",
+      "answer": "Dacă pana nu poate fi reparată în siguranță pe loc, montăm roata de rezervă și, dacă este necesar, transportăm vehiculul la service-ul nostru din Huedin pentru o soluție permanentă (inclusiv achiziție anvelopă nouă)."
+    },
+    {
+      "question": "Funcționați și în weekend?",
+      "answer": "Da, sâmbăta suntem disponibili. Vă rugăm să ne contactați telefonic pentru a confirma disponibilitatea și pentru intervenții în afara programului standard."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Preferi să vii direct la atelier? Vezi serviciul de vulcanizare", "href": "/vulcanizare-huedin" },
+    { "label": "Ai nevoie de anvelope noi după intervenție?", "href": "/anvelope-huedin" },
+    { "label": "Contactează-ne direct", "href": "/contact" }
+  ]
+}
