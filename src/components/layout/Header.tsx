@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <header className="bg-canvas sticky top-0 z-50 shadow-sm border-b border-base">
       {/* Top bar */}
-      <div className="bg-canvas-muted py-1.5 px-4">
+      <div className="bg-canvas-muted py-1.5 px-4 hidden md:block">
         <div className="max-w-6xl mx-auto flex justify-between items-center text-sm text-fg-muted">
           <span>{business.address}</span>
           <a href={business.phoneHref} className="topbar-phone font-semibold transition-colors">
