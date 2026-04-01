@@ -48,5 +48,13 @@
     "description": "Gamă largă de anvelope noi pentru autoturisme și SUV-uri, la prețuri competitive.",
     "href": "/anvelope-huedin",
     "icon": "LifeBuoy"
+  },
+  {
+    "id": "service-camion",
+    "title": "Service Camion",
+    "description": "Reparații complete, vulcanizare și ITP pentru camioane și vehicule grele. Soluții profesionale pentru flote.",
+    "href": "/service-camion-huedin",
+    "icon": "Truck",
+    "featured": true
   }
 ]

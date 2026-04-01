@@ -15,7 +15,7 @@ export default function ITPPage() {
   return (
     <>
       <SchemaMarkup schema={schema} />
-      <ServiceHero heading={data.hero.heading} subheading={data.hero.subheading} ctaLabel="Programează ITP" secondaryCtaLabel="Service Rapid" secondaryCtaHref="/service-auto-rapid-huedin" backgroundImage="/images/tyrefix/vulcanizare-itp-huedin.png" />
+      <ServiceHero heading={data.hero.heading} subheading={data.hero.subheading} ctaLabel="Programează ITP" secondaryCtaLabel="Service Rapid" secondaryCtaHref="/service-auto-rapid-huedin" backgroundImage="/images/tyrefix/new-service-itp-huedin.jpg" />
 
       <section className="py-14 px-4 bg-canvas">
         <div className="max-w-4xl mx-auto">

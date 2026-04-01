@@ -15,7 +15,7 @@ export default function ServiceRapidPage() {
   return (
     <>
       <SchemaMarkup schema={schema} />
-      <ServiceHero heading={data.hero.heading} subheading={data.hero.subheading} secondaryCtaLabel="ITP Huedin" secondaryCtaHref="/itp-huedin" backgroundImage="/images/tyrefix/vulcanizare-huedin-3.png" />
+      <ServiceHero heading={data.hero.heading} subheading={data.hero.subheading} secondaryCtaLabel="ITP Huedin" secondaryCtaHref="/itp-huedin" backgroundImage="/images/tyrefix/new-service-auto.jpg" />
 
       <section className="py-14 px-4 bg-canvas">
         <div className="max-w-4xl mx-auto">

@@ -1,0 +1,61 @@
+{
+  "title": "Service Camion Huedin",
+  "metaTitle": "Service Camion Huedin | Reparații și Întreținere Camioane – Tyrefix",
+  "metaDescription": "Service profesional pentru camioane în Huedin. Reparații, vulcanizare, ITP, frâne, suspensie și diagnóstică. Acoperim area Cluj Vest.",
+  "hero": {
+    "heading": "Service Camion Huedin – Soluții Complete pentru Flote",
+    "subheading": "Reparații, vulcanizare, ITP și întreținere camioane. Echipamente profesionale și personal cu experiență vastă în transportul greu."
+  },
+  "services": [
+    "Vulcanizare și reparare anvelope camion",
+    "Diagnostic și reparații motor",
+    "Revizie frecare și suspensie",
+    "Verificare și reparare sistem de frâne pneumatice",
+    "ITP pentru camioane și vehicule grele",
+    "Service și schimb ulei motor și transmisie",
+    "Reparații sistem electric și baterii",
+    "Echilibrare și aliniere roți camion",
+    "Inspectare și reparare structură și cadru",
+    "Consultanță și planning întreținere preventivă"
+  ],
+  "prices": [
+    { "service": "Vulcanizare anvelopă camion", "price": "80 – 150 RON" },
+    { "service": "Reparare pană anvelopă camion", "price": "60 – 120 RON" },
+    { "service": "Schimb și echilibrare roți (set 4)", "price": "200 – 400 RON" },
+    { "service": "Service ulei motor", "price": "150 – 300 RON" },
+    { "service": "Diagnóstică electronică", "price": "100 – 200 RON" },
+    { "service": "ITP camion", "price": "150 – 250 RON" },
+    { "service": "Revizie frâne pneumatice", "price": "200 – 400 RON" },
+    { "service": "Reparare sistem electric", "price": "100 – 400 RON" }
+  ],
+  "faq": [
+    {
+      "question": "Realizați service pentru camioane mari și semiremorci?",
+      "answer": "Da, serviciile noastre se adresează camioanelor de orice tonaj, inclusiv semiremorci și vehicule pentru transport greu. Lucrați cu noi dacă aveți flote sau camioane individuale. Contactați-ne în prealabil pentru planificarea intervențiilor complexe."
+    },
+    {
+      "question": "Ce se include în ITP-ul pentru camioane?",
+      "answer": "ITP-ul pentru camioane include: verificarea motorului, frenelor, sistemului de suspensie, direcției, luminilor, structurii cadrului și a componenților de siguranță. Suntem stație autorizată pentru inspectia tehnică a vehiculelor grele."
+    },
+    {
+      "question": "Cât durează o revizie completă a unui camion?",
+      "answer": "O revizie completă depinde de tipul camioanului și de componenții care necesită atenție. O revizie standard durează între 4 și 8 ore. Vi se poate oferi o programare flexibilă pentru a minimiza stoppage-ul flotei."
+    },
+    {
+      "question": "Oferiți servicii de depanare urgență pentru camioane?",
+      "answer": "Da, oferim servicii de urgență și depanare pentru camioane. Dacă sunteți blocați, sunați-ne imediat. În funcție de locație, vom veni la dumneavoastră sau vă vom deplasa la sediul nostru pentru reparații."
+    },
+    {
+      "question": "Înlocuiți anvelope și realizați echilibrare pe cale?",
+      "answer": "Da, avem echipe pentru intervenții mobile. Dacă sunteți blocat pe cale cu o pană, ne puteți apela și vom veni la locul incidentului pentru reparație sau înlocuire anvelopă."
+    },
+    {
+      "question": "Cât costă o vulcanizare pentru anvelopă de camion?",
+      "answer": "Prețul vulcanizării depinde de dimensiunea anvelopei și de gravitatea daunei. O reparare simplă costă 60–120 RON, iar o vulcanizare de înlocuire anvelopă variază între 80–150 RON. Contactați-ne pentru o ofertă exactă."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Ai nevoie de vulcanizare mobilă pentru camion?", "href": "/vulcanizare-mobila-huedin" },
+    { "label": "Verifică serviciile noastre rapide", "href": "/service-auto-rapid-huedin" }
+  ]
+}

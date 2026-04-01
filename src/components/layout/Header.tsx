@@ -12,6 +12,7 @@ const navLinks = [
   { label: "Reglaj Direcție", href: "/reglaj-directie-huedin" },
   { label: "Freon AC", href: "/incarcare-freon-auto-huedin" },
   { label: "Service Rapid", href: "/service-auto-rapid-huedin" },
+  { label: "Service Camion", href: "/service-camion-huedin" },
   { label: "ITP", href: "/itp-huedin" },
   { label: "Anvelope", href: "/anvelope-huedin" },
 ];

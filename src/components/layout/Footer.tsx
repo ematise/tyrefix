@@ -9,6 +9,7 @@ const serviceLinks = [
   { label: "Reglaj Direcție Huedin", href: "/reglaj-directie-huedin" },
   { label: "Încărcare Freon AC Huedin", href: "/incarcare-freon-auto-huedin" },
   { label: "Service Auto Rapid Huedin", href: "/service-auto-rapid-huedin" },
+  { label: "Service Camion Huedin", href: "/service-camion-huedin" },
   { label: "ITP Huedin", href: "/itp-huedin" },
   { label: "Anvelope Huedin", href: "/anvelope-huedin" },
 ];
