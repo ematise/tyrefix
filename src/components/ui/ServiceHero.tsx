@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Phone } from "lucide-react";
 import business from "@/data/business.json";
@@ -10,6 +11,7 @@ interface ServiceHeroProps {
   secondaryCtaLabel?: string;
   secondaryCtaHref?: string;
   backgroundImage?: string;
+  priority?: boolean;
 }
 
 export default function ServiceHero({
@@ -20,20 +22,25 @@ export default function ServiceHero({
   secondaryCtaLabel,
   secondaryCtaHref,
   backgroundImage,
+  priority = true,
 }: ServiceHeroProps) {
   return (
-    <section
-      className="relative text-fg-on-dark py-16 px-4 overflow-hidden"
-      style={
-        backgroundImage
-          ? { backgroundImage: `url(${backgroundImage})`, backgroundSize: "cover", backgroundPosition: "center" }
-          : {}
-      }
-    >
-      {backgroundImage
-        ? <div className="absolute inset-0 bg-black/60" aria-hidden="true" />
-        : <div className="absolute inset-0 bg-dark" aria-hidden="true" />
-      }
+    <section className="relative text-fg-on-dark py-16 px-4 overflow-hidden min-h-[320px]">
+      {backgroundImage ? (
+        <Image
+          src={backgroundImage}
+          alt=""
+          fill
+          priority={priority}
+          fetchPriority={priority ? "high" : "auto"}
+          sizes="100vw"
+          quality={75}
+          className="object-cover object-center"
+        />
+      ) : (
+        <div className="absolute inset-0 bg-dark" aria-hidden="true" />
+      )}
+      {backgroundImage && <div className="absolute inset-0 bg-black/60" aria-hidden="true" />}
       <div className="relative max-w-4xl mx-auto text-center">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight mb-4">
           {heading}

@@ -30,7 +30,7 @@ export default function VulcanizarePage() {
         subheading={data.hero.subheading}
         secondaryCtaLabel="Vulcanizare mobilă"
         secondaryCtaHref="/vulcanizare-mobila-huedin"
-        backgroundImage="/images/tyrefix/new-vulcanizare-itp-huedin"
+        backgroundImage="/images/tyrefix/new-vulcanizare-itp-huedin.webp"
       />
 
       <section className="py-14 px-4 bg-canvas">

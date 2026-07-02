@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "optimize-images": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",
@@ -14,6 +15,12 @@
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
+  "browserslist": [
+    "chrome >= 111",
+    "edge >= 111",
+    "firefox >= 111",
+    "safari >= 16.4"
+  ],
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
@@ -21,6 +28,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "sharp": "^0.35.3",
     "tailwindcss": "^4",
     "typescript": "5.9.3"
   }

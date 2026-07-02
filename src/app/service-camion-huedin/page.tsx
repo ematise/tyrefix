@@ -31,7 +31,7 @@ export default function ServiceCamionPage() {
         subheading={data.hero.subheading}
         secondaryCtaLabel="Vulcanizare Mobilă"
         secondaryCtaHref="/vulcanizare-mobila-huedin"
-        backgroundImage="/images/tyrefix/new-service-auto-utilitare.jpg"
+        backgroundImage="/images/tyrefix/new-service-auto-utilitare.webp"
       />
 
       <section className="py-14 px-4 bg-canvas">
@@ -52,12 +52,12 @@ export default function ServiceCamionPage() {
         <div className="max-w-4xl mx-auto">
           <div className="rounded-2xl overflow-hidden border border-base">
             <Image
-              src="/images/tyrefix/new-service-auto-utilitare-2.jpg"
+              src="/images/tyrefix/new-service-auto-utilitare-2.webp"
               alt="Service profesional pentru camioane și vehicule grele Huedin"
               width={1536}
               height={2048}
               className="w-full h-auto object-cover max-h-96"
-              priority
+              loading="lazy"
             />
           </div>
         </div>
