@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
-import SiteChrome from "@/components/layout/SiteChrome";
 import business from "@/data/business.json";
 
 const geistSans = Geist({
@@ -31,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="ro">
       <body className={`${geistSans.variable} antialiased min-h-screen flex flex-col`} suppressHydrationWarning>
-        <SiteChrome>{children}</SiteChrome>
+        {children}
       </body>
     </html>
   );

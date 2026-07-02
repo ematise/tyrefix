@@ -33,7 +33,7 @@
 
   /* Foreground – text pe fundal întunecat */
   --ds-fg-on-dark:        #ffffff;
-  --ds-fg-on-dark-muted:  #9CA3AF;
+  --ds-fg-on-dark-muted:  #C5CBD3;
 
   /* Borduri */
   --ds-border:            #E5E7EB;
@@ -118,11 +118,28 @@
 
 /* Link pe fundal întunecat */
 .link-on-dark { color: var(--ds-fg-on-dark-muted); }
-.link-on-dark:hover { color: var(--ds-brand); }
+.link-on-dark:hover { color: var(--ds-fg-on-dark); }
 
-/* Link footer discret */
+/* Link footer discret (pe fundal luminos) */
 .link-footer { color: var(--ds-fg-muted); }
-.link-footer:hover { color: var(--ds-fg-faint); }
+.link-footer:hover { color: var(--ds-fg-secondary); }
+
+/* Meniu mobil fără JavaScript */
+.mobile-menu .mobile-menu-icon-close { display: none; }
+.mobile-menu[open] .mobile-menu-icon-open { display: none; }
+.mobile-menu[open] .mobile-menu-icon-close { display: block; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
 
 /* Link nav desktop */
 .nav-link { color: var(--ds-fg-secondary); }

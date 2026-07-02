@@ -16,7 +16,7 @@ const serviceLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-dark text-fg-faint pt-12 pb-6">
+    <footer className="bg-dark text-fg-on-dark-muted pt-12 pb-6">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10 border-b border-dark">
           {/* Brand */}
@@ -95,11 +95,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-fg-muted">
+        <div className="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-fg-on-dark-muted">
           <p>© {new Date().getFullYear()} Tyrefix Huedin. Toate drepturile rezervate.</p>
           <div className="flex gap-4">
-            <Link href="/despre-noi" className="link-footer transition-colors">Despre Noi</Link>
-            <Link href="/contact" className="link-footer transition-colors">Contact</Link>
+            <Link href="/despre-noi" className="link-on-dark transition-colors">Despre Noi</Link>
+            <Link href="/contact" className="link-on-dark transition-colors">Contact</Link>
           </div>
         </div>
       </div>
