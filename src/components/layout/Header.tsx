@@ -1,9 +1,5 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
-import { useState } from "react";
 import { Phone, Menu, X } from "lucide-react";
 import business from "@/data/business.json";
 
@@ -19,9 +15,6 @@ const navLinks = [
 ];
 
 export default function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const isHome = usePathname() === "/";
-
   return (
     <header className="bg-canvas sticky top-0 z-50 shadow-sm border-b border-base">
       {/* Top bar */}
@@ -40,16 +33,16 @@ export default function Header() {
           <Image
             src="/images/tyrefix_logo.webp"
             alt="Tyrefix Huedin – Service Auto"
-            width={160}
-            height={48}
+            width={128}
+            height={38}
             className="h-10 w-auto object-contain"
-            priority={!isHome}
-            fetchPriority={isHome ? "low" : "auto"}
+            fetchPriority="low"
+            quality={65}
           />
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center gap-1">
+        <nav className="hidden lg:flex items-center gap-1" aria-label="Navigare principală">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -66,44 +59,40 @@ export default function Header() {
             href={business.phoneHref}
             className="btn-primary hidden sm:flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-semibold transition-colors"
           >
-            <Phone className="w-4 h-4" />
+            <Phone className="w-4 h-4" aria-hidden="true" />
             Sună acum
           </a>
 
-          <button
-            className="icon-btn lg:hidden p-2 transition-colors"
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Meniu"
-          >
-            {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          <details className="mobile-menu lg:hidden relative">
+            <summary className="icon-btn p-2 transition-colors cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+              <Menu className="mobile-menu-icon-open w-6 h-6" aria-hidden="true" />
+              <X className="mobile-menu-icon-close w-6 h-6" aria-hidden="true" />
+              <span className="sr-only">Meniu</span>
+            </summary>
+
+            <div className="absolute right-0 top-full mt-1 w-64 border border-base bg-canvas rounded-xl shadow-lg px-4 py-3">
+              <nav className="flex flex-col gap-1" aria-label="Navigare mobilă">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="nav-link py-2.5 px-3 rounded font-medium transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+                <a
+                  href={business.phoneHref}
+                  className="btn-primary mt-2 flex items-center justify-center gap-2 px-4 py-3 rounded-xl font-semibold transition-colors"
+                >
+                  <Phone className="w-4 h-4" aria-hidden="true" />
+                  {business.phone}
+                </a>
+              </nav>
+            </div>
+          </details>
         </div>
       </div>
-
-      {/* Mobile menu */}
-      {menuOpen && (
-        <div className="lg:hidden border-t border-base bg-canvas px-4 py-3">
-          <nav className="flex flex-col gap-1">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="nav-link py-2.5 px-3 rounded font-medium transition-colors"
-                onClick={() => setMenuOpen(false)}
-              >
-                {link.label}
-              </Link>
-            ))}
-            <a
-              href={business.phoneHref}
-              className="btn-primary mt-2 flex items-center justify-center gap-2 px-4 py-3 rounded-xl font-semibold transition-colors"
-            >
-              <Phone className="w-4 h-4" />
-              {business.phone}
-            </a>
-          </nav>
-        </div>
-      )}
     </header>
   );
 }
