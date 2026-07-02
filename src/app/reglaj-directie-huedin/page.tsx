@@ -15,7 +15,7 @@ export default function ReglajDirectiePage() {
   return (
     <>
       <SchemaMarkup schema={schema} />
-      <ServiceHero heading={data.hero.heading} subheading={data.hero.subheading} secondaryCtaLabel="Service Auto Rapid" secondaryCtaHref="/service-auto-rapid-huedin" backgroundImage="/images/tyrefix/vulcanizare-huedin-2.png" />
+      <ServiceHero heading={data.hero.heading} subheading={data.hero.subheading} secondaryCtaLabel="Service Auto Rapid" secondaryCtaHref="/service-auto-rapid-huedin" backgroundImage="/images/tyrefix/vulcanizare-huedin-2.webp" />
 
       <section className="py-14 px-4 bg-canvas">
         <div className="max-w-4xl mx-auto">

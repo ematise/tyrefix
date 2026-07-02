@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Phone, Menu, X } from "lucide-react";
 import business from "@/data/business.json";
@@ -19,6 +20,7 @@ const navLinks = [
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const isHome = usePathname() === "/";
 
   return (
     <header className="bg-canvas sticky top-0 z-50 shadow-sm border-b border-base">
@@ -41,7 +43,8 @@ export default function Header() {
             width={160}
             height={48}
             className="h-10 w-auto object-contain"
-            priority
+            priority={!isHome}
+            fetchPriority={isHome ? "low" : "auto"}
           />
         </Link>
 

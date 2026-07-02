@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Phone, Zap, Shield, Banknote, MapPin, Check } from "lucide-react";
 import ServiceCard from "@/components/ui/ServiceCard";
@@ -52,10 +53,17 @@ export default function HomePage() {
       <SchemaMarkup schema={schema} />
 
       {/* Hero */}
-      <section
-        className="relative text-fg-on-dark py-20 px-4 overflow-hidden"
-        style={{ backgroundImage: "url(/images/tyrefix/vulcanizare-huedin-1.png)", backgroundSize: "cover", backgroundPosition: "center" }}
-      >
+      <section className="relative text-fg-on-dark py-20 px-4 overflow-hidden min-h-[420px]">
+        <Image
+          src="/images/tyrefix/vulcanizare-huedin-1.webp"
+          alt=""
+          fill
+          priority
+          fetchPriority="high"
+          sizes="100vw"
+          quality={75}
+          className="object-cover object-center"
+        />
         <div className="absolute inset-0 bg-black/60" aria-hidden="true" />
         <div className="relative max-w-5xl mx-auto text-center">
 

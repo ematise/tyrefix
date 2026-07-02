@@ -15,7 +15,7 @@ export default function AnvelopePage() {
   return (
     <>
       <SchemaMarkup schema={schema} />
-      <ServiceHero heading={data.hero.heading} subheading={data.hero.subheading} ctaLabel="Cere ofertă" secondaryCtaLabel="Vulcanizare Huedin" secondaryCtaHref="/vulcanizare-huedin" backgroundImage="/images/tyrefix/anvelope-huedin.png" />
+      <ServiceHero heading={data.hero.heading} subheading={data.hero.subheading} ctaLabel="Cere ofertă" secondaryCtaLabel="Vulcanizare Huedin" secondaryCtaHref="/vulcanizare-huedin" backgroundImage="/images/tyrefix/anvelope-huedin.webp" />
 
       <section className="py-14 px-4 bg-canvas">
         <div className="max-w-4xl mx-auto">

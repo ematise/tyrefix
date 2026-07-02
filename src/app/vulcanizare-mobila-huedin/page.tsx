@@ -32,7 +32,7 @@ export default function VulcanizareMobilaPage() {
         ctaLabel="Sună – Venim la tine"
         secondaryCtaLabel="Vulcanizare la atelier"
         secondaryCtaHref="/vulcanizare-huedin"
-        backgroundImage="/images/tyrefix/new-vulcanizare-mobila.jpg"
+        backgroundImage="/images/tyrefix/new-vulcanizare-mobila.webp"
       />
 
       <section className="py-14 px-4 bg-canvas">
